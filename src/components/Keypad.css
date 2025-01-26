@@ -1,0 +1,38 @@
+.keypad {
+  max-width: 400px; /* Set max width to keep the keypad wide, if desired */
+  margin: 0px auto;
+  padding: 10px; /* Reduced padding around the entire keypad */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input-display {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px; /* Reduced margin */
+  padding: 8px; /* Reduced padding for the input field */
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns, keeping grid layout */
+  gap: 5px; /* Reduced gap between buttons */
+  margin-bottom: 10px; /* Reduced margin between grid and buttons */
+}
+
+.number-grid button {
+  padding: 12px; /* Reduced padding inside buttons */
+  font-size: 18px; /* Slightly smaller font */
+}
+
+.control-buttons {
+  display: flex;
+  gap: 8px; /* Reduced gap between control buttons */
+}
+
+.control-buttons button {
+  flex: 1;
+  padding: 30px; /* Reduced padding inside control buttons */
+}
